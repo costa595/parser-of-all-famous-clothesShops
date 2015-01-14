@@ -1,0 +1,269 @@
+@font-face{
+	font-family: Type;
+	src:local("Type"), url(../fonts/nEJHxYpX.ttf);
+}
+
+@font-face{
+	font-family: Shapes;
+	src:local("Shapes"), url(../fonts/nEJHxYpX.ttf);
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding:0px;
+	margin:0px;
+	/*background-color: #D0D0D0;*/
+}
+
+a{
+	text-decoration: none;
+}
+
+														/*-----HEADER-----*/
+#header{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+/*			background:url(../images/line2.jpg) repeat top left;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-font-smoothing: antialiased;
+	-o-font-smoothing:antialiased;*/
+}
+														/*-----MAIN----*/
+
+#main_block{
+	width:800px;
+	height:1260px;
+	margin: 0 auto;
+	/*border:1px solid #000000;*/
+	text-align: center;
+	font-size: 45px;
+}
+
+#main_block h1{
+	font-family: "Type";
+}
+
+.sex,.category{
+	position: relative;
+	left: -20px;
+}
+
+.category li, .sex li,.items li{
+	color:#000000;
+	list-style-type: none;
+}
+                                       /*-----CHOOSING SEX---*/
+.sex li{
+	font-size: 45px;
+	border:3px solid #000000;
+	padding: 15px;
+	padding-top: 30px;
+	display: inline;
+}
+
+#man:hover{
+	background: url('../images/man_button.jpg') no-repeat 10% 10%;
+	background-size: 220px 100px;
+	color:#ffffff;
+}
+
+#woman:hover{
+	background: url('../images/woman_button.jpg') no-repeat 10% 10%;
+	background-size: 220px 100px;
+	color:#ffffff;
+}
+
+.sex li:active{
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+													/*------CHOOSING MAIN CATEGORY---*/
+
+.category li img{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow:  0 0 10px #000000;
+}			
+
+.category li{
+	display: inline-block;
+	padding: 25px;
+	box-shadow: inset 0 0 10px  rgba(0,0,0,0.5);
+}
+
+.category li:hover{
+	border:1px solid #FF8C00;
+}
+
+.title_string{
+	font-size: 25px;
+}
+
+.name{
+	padding:5px;
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+													/*----PHOTO BLOCK----*/
+
+#photo_block{
+	width:800px;
+}
+
+.items{
+	width: 800px;
+}
+
+.items li .item_block{
+	padding-top: 55px;
+	width: 180px;
+	height: 248px;
+	float: left;
+}
+
+.price{
+	font-size: 17px;
+}
+
+.type,.sizes{
+	font-size: 15px;
+}
+
+
+
+														/*----HEXAGONS----*/
+
+/*.hexa {
+width: 190px;
+-webkit-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+-moz-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+-ms-clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+clip-path: polygon( 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25% );
+border:1px solid #000000;
+}
+
+.gon {
+width: 220px;
+height: 220px;
+background: url('../images/man_word.png') no-repeat 50% 50%;
+background-size: 220px 220px;
+line-height: 220px;
+text-align: center;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 6px;
+color: #fff;
+color: rgba(255,255,255,.5);
+cursor: pointer;
+transition: color 500ms ease, text-shadow 500ms ease;
+border:1px solid #000000;
+}*/
+
+
+#line{
+	width: 100%;
+	height: 100px;
+	background-color: #000000;
+/*			background:url(../images/line2.jpg) repeat top left;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-font-smoothing: antialiased;
+	-o-font-smoothing:antialiased;*/
+}
+
+
+														/*-----PERSON----*/
+#person_block{
+	width:800px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+#person_block .info_square{
+	width: 125px;
+	height: 150px;
+	border:1px solid #000000;
+}
+
+													/*-----PERSON PARTS----*/
+#person_block #human{
+	margin-left: 310px;
+	margin-top: 50px;
+}
+
+#person_block #head{
+	float: right;
+	margin-top: -80px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#person_block #head_accs{
+	margin-top: -622px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#person_block #neck_accs{
+	margin-top: -5px;
+	border-top: 1px solid #ffffff;
+}
+
+#person_block #neck{
+	float: right;
+	margin-top: -152px;
+	border-top: 1px solid #ffffff;
+}
+
+#person_block #chest{
+	margin-left: 520px;
+	margin-top: -70px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#person_block #hand_jewellery{
+	margin-left: 140px;
+	margin-top: -150px;
+}
+
+#person_block #hand_accs{
+	margin-left: 140px;
+	margin-top: -10px;
+}
+
+#person_block #belt{
+	margin-left: 520px;
+	margin-top: -150px;
+	border-top: 1px solid #ffffff;
+}
+
+#person_block #hands{
+	margin-top:-5px;
+	margin-left: 140px;
+}
+
+#person_block #legs{
+	margin-left: 520px;
+	margin-top: -150px;
+}
+
+#person_block #feet{
+	margin-top:-30px;
+	margin-left: 340px;
+}
+
+														/*-----FOOTER-----*/
+#footer{
+	width: 100%;
+	height: 250px;
+	background-color: #000000;
+}
+
+ #canvas_container {    
+    position: absolute;
+    width:800px;
+	height: 700px;
+	margin-top: -552px;
+}  
